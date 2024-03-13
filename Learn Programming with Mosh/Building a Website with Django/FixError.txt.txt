@@ -1,0 +1,34 @@
+ເມື່ອຍ້າຍ Template ໄປໄວ້ Floder ອື່ນຈະເກີດ ຂໍ້ຜິດພາດໄດ້ ແບບນີ້
+Traceback Switch to copy-and-paste view
+
+C:\Users\GIGABYTE\anaconda3\lib\site-packages\django\template\backends\django.py, line 61, in render
+            return self.template.render(context) …
+
+ໝາຍເຫດ: ຍ້ອນວ່າຫາ Path ບໍ່ເຫັນ
+ວິທີແກ້ໄຂ
+ຄັດລອກPath ທີ່ຢູ່ຂອງໄຟລ໌ນັ້ນ
+ແລ້ວໄປວາງ ໄວ້ Setting ຕົວຢ່າງ 
+Path: D:\ບົດຮຽນ\Python\Building a Website with Django\pyshop\templates
+
+ ເອົາໄປວາງໄວ້ບ່ອນ Setting 
+ROOT_URLCONF = 'pyshop.urls'
+
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [r'D:\ບົດຮຽນ\Python\Building a Website with Django\pyshop\templates'],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
+
+
+ລິ້ງວິດີໂອ ທີ່ແກ້ໄຂໄດ້
+https://www.youtube.com/watch?v=RWAKahsR1_g
